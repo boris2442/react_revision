@@ -9,12 +9,7 @@ const FruitForm = ({fruits, setFruits,handleDelete}) => {
         setNewFruit(valueAfterChange);
         // console.log(e.target.value)
     }
-    //  const handleDelete = (id) => {
-    //     // console.log(id)
-    //     const fruitsCopy = [...fruits];
-    //     const fruitsUpdate = fruitsCopy.filter(fruit => fruit.id !== id);
-    //     setFruits(fruitsUpdate)
-    // }
+   
     const handleSubmit = (e) => {
         e.preventDefault();
         // console.log(e)

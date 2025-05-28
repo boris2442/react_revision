@@ -34,7 +34,7 @@ const List = () => {
             <ul>
                 {
                     fruits.map((fruit) => (
-                       <Fruit fruitInfo={fruit} onFruitDelete={handleDelete}/>
+                       <Fruit key={fruit.id} fruitInfo={fruit} onFruitDelete={handleDelete}/>
 
                     ))
                 }
